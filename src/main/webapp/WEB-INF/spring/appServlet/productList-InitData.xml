@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 상품 초기 데이터 설정 -->
+<bean class="kosta.mvc.model.dto.ProductDTO" id="dto1">
+  <property name="code" value="A01"/>
+  <property name="name" value="새우깡"/>
+  <property name="price" value="2500"/>
+  <property name="detail" value="짜고 맛나다"/>
+</bean>
+
+<bean class="kosta.mvc.model.dto.ProductDTO" id="dto2">
+  <property name="code" value="A02"/>
+  <property name="name" value="고구마깡"/>
+  <property name="price" value="4500"/>
+  <property name="detail" value="달고 고소하다."/>
+</bean>
+
+
+<bean class="kosta.mvc.model.dto.ProductDTO" id="dto3">
+  <property name="code" value="A03"/>
+  <property name="name" value="감자깡"/>
+  <property name="price" value="5000"/>
+  <property name="detail" value="뜨거운 감자의 맛"/>
+</bean>
+
+</beans>
